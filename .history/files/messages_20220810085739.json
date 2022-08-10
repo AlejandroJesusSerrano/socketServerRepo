@@ -1,0 +1,30 @@
+[
+  {
+    "usr": "asdfdsafasd",
+    "msg": "fasdfasdfasdfasdfasd",
+    "id": 1,
+    "likes": 0,
+    "date": 1660132383998
+  },
+  {
+    "usr": "asdfdsafasd",
+    "msg": "fasdfasdfasdfasdfasd",
+    "id": 2,
+    "likes": 0,
+    "date": 1660132424476
+  },
+  {
+    "usr": "zsdfgasdgdfs",
+    "msg": "sdfgsdfgsdfgsdfgsdfg",
+    "id": 3,
+    "likes": 0,
+    "date": 1660132622037
+  },
+  {
+    "usr": "asdfgasrgsdfg",
+    "msg": "sdfgsdfgsdfgsdfg",
+    "id": 4,
+    "likes": 0,
+    "date": 1660132660638
+  }
+]

@@ -4,11 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <title>Aplicación de Chat</title>
 </head>
 <body>
-        
-    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+    <div class="ui container">
+        <div class="ui grid">
+            <div class="eight wide column">
+                <div class="ui container">
+                    <h2>Messages</h2>
+                    <div id="posts">
+
+                    </div>
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div class="card">
+                    <div class="ui container">
+                        <h2>Send Message</h2>
+                        <div class="ui form">
+                            <div class="field">
+                                <label for="usr">User: </label>
+                                <input type="text" name="usr" id="usr">
+                            </div>
+                            <div class="field">
+                                <label for="msg">Message: </label>
+                                <textarea name="msg" id="msg"></textarea>
+                            </div>
+                            <div class="field">
+                                <button class="ui primary button" onclick="sendMsg()">
+                                    <i class="send icon"></i>
+                                    Send    
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>    
     <script src="./js/main.js"></script>
 </body>
 </html>
